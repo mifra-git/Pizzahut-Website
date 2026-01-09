@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PizzaHut About Us</title>
+<link rel="stylesheet" href="style.css">
+<style>
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #fff7f5;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* Header */
+header {
+    background-color: #d71a1a;
+    padding: 15px 0;
+    color: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+header .logo {
+    font-size: 28px;
+    font-weight: bold;
+    color: #fff;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+header nav {
+    display: inline-block;
+    float: right;
+    margin-right: 20px;
+}
+
+header nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+header nav a:hover {
+    color: #ffd700;
+}
+
+/* Hero/About Section */
+.about-section {
+    padding: 60px 0;
+    background: #fff0f0;
+}
+
+.about-section h2 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 40px;
+    color: #d71a1a;
+}
+
+.about-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 40px;
+}
+
+.about-text {
+    flex: 1;
+    min-width: 300px;
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+.about-text p {
+    margin-bottom: 20px;
+}
+
+.about-image {
+    flex: 1;
+    min-width: 300px;
+}
+
+.about-image img {
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+}
+
+.about-image img:hover {
+    transform: scale(1.05);
+}
+
+/* Our Values Section */
+.values-section {
+    padding: 60px 0;
+    background: #fff;
+    text-align: center;
+}
+
+.values-section h2 {
+    color: #d71a1a;
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+
+.values-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+}
+
+.value-card {
+    background: #fff0f0;
+    padding: 30px 20px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.value-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+.value-card h3 {
+    color: #d71a1a;
+    margin-bottom: 15px;
+}
+
+.value-card p {
+    font-size: 16px;
+}
+
+/* Team Section */
+.team-section {
+    padding: 60px 0;
+    background: #fff0f0;
+    text-align: center;
+}
+
+.team-section h2 {
+    color: #d71a1a;
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+
+.team-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 30px;
+}
+
+.team-member {
+    background: #fff;
+    padding: 20px;
+    border-radius: 15px;
+    transition: transform 0.3s;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.team-member:hover {
+    transform: translateY(-10px);
+}
+
+.team-member img {
+    width: 100%;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.team-member h4 {
+    margin: 10px 0 5px;
+    color: #d71a1a;
+}
+
+.team-member p {
+    font-size: 14px;
+}
+
+/* Fun Facts Section */
+.facts-section {
+    background: #d71a1a;
+    color: #fff;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.facts-section h2 {
+    margin-bottom: 40px;
+    font-size: 32px;
+}
+
+.facts-grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.fact {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Footer */
+footer {
+    background: #222;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+</style>
+</head>
+<body>
+
+<header>
+    <div class="container header-container">
+        <h1 class="logo">PizzaHut</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="menu.php">Menu</a>
+            <a href="cart.php">Cart</a>
+            <a href="about.php">About</a>
+            <a href="contact.php">Contact</a>
+        </nav>
+    </div>
+</header>
+
+<section class="about-section container">
+    <h2>About PizzaHut</h2>
+    <div class="about-content">
+        <div class="about-text">
+            <p>PizzaHut has been serving delicious pizzas for over 50 years worldwide. Our mission is to deliver hot, fresh, and quality pizzas directly to your doorstep. We use the finest ingredients to craft the perfect pizza experience for every customer.</p>
+            <p>Our menu features a wide range of options including classic Margherita, Pepperoni, Veggie, and gourmet pizzas. We are committed to excellent customer service and prompt delivery. Join us today and experience the ultimate pizza delight!</p>
+        </div>
+        <div class="about-image">
+            <img src="js/images/about.jpg" alt="PizzaHut Store">
+        </div>
+    </div>
+</section>
+
+<section class="values-section container">
+    <h2>Our Values</h2>
+    <div class="values-grid">
+        <div class="value-card">
+            <h3>Quality Ingredients</h3>
+            <p>We only use the freshest and finest ingredients in every pizza we make.</p>
+        </div>
+        <div class="value-card">
+            <h3>Customer Satisfaction</h3>
+            <p>Your happiness is our priority. We ensure prompt and friendly service.</p>
+        </div>
+        <div class="value-card">
+            <h3>Innovation</h3>
+            <p>We constantly introduce new flavors and exciting menu options.</p>
+        </div>
+        <div class="value-card">
+            <h3>Community</h3>
+            <p>We actively participate in community events and charity programs.</p>
+        </div>
+    </div>
+</section>
+
+<section class="team-section container">
+    <h2>Meet Our Team</h2>
+    <div class="team-grid">
+        <div class="team-member">
+            <img src="js/images/chef1.jpg" alt="Chef 1">
+            <h4>John Smith</h4>
+            <p>Head Chef - 10 years experience in gourmet pizzas</p>
+        </div>
+        <div class="team-member">
+            <img src="js/images/chef2.jpg" alt="Chef 2">
+            <h4>Emma Johnson</h4>
+            <p>Pastry Chef - Expert in desserts and baked goods</p>
+        </div>
+        <div class="team-member">
+            <img src="js/images/chef3.jpg" alt="Chef 3">
+            <h4>Michael Lee</h4>
+            <p>Delivery Manager - Ensures fast and safe delivery</p>
+        </div>
+    </div>
+</section>
+
+<section class="facts-section container">
+    <h2>Fun Facts About PizzaHut</h2>
+    <div class="facts-grid">
+        <div class="fact">50+ Years of Serving</div>
+        <div class="fact">100+ Menu Options</div>
+        <div class="fact">1M+ Happy Customers</div>
+        <div class="fact">500+ Stores Worldwide</div>
+    </div>
+</section>
+
+<!-- Modern Footer -->
+<footer>
+  <div class="footer-container">
+    <div class="footer-brand">
+      <h2>PizzaHut</h2>
+      <p>Hot, fresh, and delicious pizzas delivered to your door.</p>
+    </div>
+
+    <div class="footer-links">
+      <a href="index.html">Home</a>
+      <a href="menu.php">Menu</a>
+      <a href="cart.php">Cart</a>
+      <a href="about.php">About</a>
+      <a href="contact.php">Contact</a>
+    </div>
+
+    <div class="footer-social">
+      <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+      <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+      <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>&copy; 2025 PizzaHut. All Rights Reserved.</p>
+  </div>
+</footer>
+
+<!-- Font Awesome -->
+<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+
+</body>
+</html>
