@@ -1,0 +1,761 @@
+/* Reset */
+/* General Styles */
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #fff5f5;
+    color: #333;
+}
+
+.container {
+   width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 15px; /* avoid extra horizontal spacing */
+}
+
+/* Header */
+header {
+    background-color: #d71a1a;
+    color: #fff;
+    padding: 15px 0;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    font-size: 28px;
+    font-weight: 600;
+}
+
+header nav a {
+    color: #fff;
+    margin-left: 20px;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+header nav a.btn-login {
+    background-color: #fff;
+    color: #d71a1a;
+    padding: 8px 16px;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+
+header nav a.btn-login:hover {
+    background-color: #f5f5f5;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 80px 0;
+    background-color: #fff0f0;
+    padding: 40px 0; /* reduce from 60px to 40px */
+}
+
+.hero-left {
+    flex: 1;
+    min-width: 300px;
+    padding: 20px;
+}
+
+.hero-left h2 {
+    font-size: 36px;
+    color: #d71a1a;
+    margin-bottom: 20px;
+}
+
+.hero-left p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.hero-left button {
+    background-color: #d71a1a;
+    color: #fff;
+    border: none;
+    padding: 15px 40px;
+    font-size: 18px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+    display: block;
+    margin: 0 auto; /* Center the button */
+}
+
+.hero-left button:hover {
+    background-color: #a51414;
+}
+
+.hero-right {
+    flex: 1;
+    min-width: 300px;
+    text-align: center;
+}
+
+.hero-right img {
+    max-width: 100%;
+    border-radius: 12px;
+}
+
+/* Features Section */
+.features {
+    text-align: center;
+ padding: 40px 0; /* reduce from 60px to 40px */
+}
+
+.features h2 {
+    color: #d71a1a;
+    margin-bottom: 40px;
+    font-size: 32px;
+}
+
+.features-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.feature-card {
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 12px;
+    width: 250px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.feature-card img {
+    width: 80px;
+    margin-bottom: 15px;
+}
+
+/* Popular Pizzas Section */
+.popular {
+    background-color: #fff0f0;
+   padding: 40px 0; /* reduce from 60px to 40px */
+    text-align: center;
+}
+
+.popular h2 {
+    color: #d71a1a;
+    margin-bottom: 40px;
+    font-size: 32px;
+}
+
+.popular-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.popular-card {
+    background-color: #fff;
+    width: 250px;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.popular-card img {
+    max-width: 100%;
+    border-radius: 12px;
+    margin-bottom: 15px;
+}
+
+.popular-card button {
+    background-color: #d71a1a;
+    color: #fff;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.popular-card button:hover {
+    background-color: #a51414;
+}
+
+/* Offers Section */
+.offers {
+padding: 40px 0; /* reduce from 60px to 40px */
+    text-align: center;
+}
+
+.offers h2 {
+    color: #d71a1a;
+    margin-bottom: 40px;
+    font-size: 32px;
+}
+
+.offers-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.offer-card {
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 12px;
+    width: 250px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+}
+
+/* Offers Section */
+.offers {
+    background-color: #fff0e0;
+    padding: 60px 0;
+}
+.offers h2 {
+    text-align: center;
+    color: #d71a1a;
+    margin-bottom: 40px;
+}
+.offers-grid {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.offer-card {
+    background-color: #fff;
+    flex: 1 1 30%;
+    text-align: center;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+}
+.offer-card:hover {
+    transform: translateY(-10px);
+}
+.offer-card h3 {
+    color: #d71a1a;
+    margin-bottom: 15px;
+}
+
+/* Reviews Section */
+.reviews {
+    padding: 60px 0;
+}
+.reviews h2 {
+    text-align: center;
+    color: #d71a1a;
+    margin-bottom: 40px;
+}
+.reviews-slider {
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    padding-bottom: 10px;
+}
+.review-card {
+    min-width: 300px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    flex-shrink: 0;
+}
+
+/* CTA Section */
+.cta {
+    background-color: #d71a1a;
+    color: #fff;
+    text-align: center;
+    padding: 40px 0; /* reduce from 60px to 40px */
+}
+.cta button {
+    background-color: #fff;
+    color: #d71a1a;
+    padding: 15px 30px;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.cta button:hover {
+    background-color: #f0f0f0;
+}
+
+/* Footer */
+footer {
+    background-color: #d71a1a;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 50px;
+}
+
+/* Responsive */
+@media screen and (max-width: 992px) {
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+    .hero-right img {
+        width: 80%;
+        margin-top: 30px;
+    }
+    .features-grid,
+    .popular-grid,
+    .offers-grid {
+        flex-direction: column;
+        align-items: center;
+    }
+    .reviews-slider {
+        justify-content: flex-start;
+    }
+}
+/* 
+
+/* Responsive */
+@media screen and (max-width: 900px) {
+    .hero {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .hero-left {
+        padding: 0;
+    }
+
+    .features-grid, .popular-grid, .offers-grid, .reviews-slider {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
+/* ---------- General ---------- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #fff8f0;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* ---------- Header ---------- */
+header {
+    background-color: #c00; /* PizzaHut red */
+    color: white;
+    padding: 20px 0;
+}
+
+header .logo {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+header nav {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    align-items: center;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+header nav a:hover, header nav a.btn-login:hover {
+    color: #ffd700; /* Gold hover */
+}
+
+header nav a.btn-login {
+    background-color: #fff;
+    color: #c00;
+    padding: 5px 12px;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+/* ---------- Menu Section ---------- */
+.menu-section {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.menu-section h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+    color: #c00;
+}
+
+/* Menu Grid */
+.menu-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+}
+
+/* Menu Card */
+.menu-card {
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    padding: 15px;
+}
+
+.menu-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0,0,0,0.2);
+}
+
+.menu-card img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.menu-card h3 {
+    margin: 10px 0;
+    font-size: 1.2rem;
+    color: #c00;
+}
+
+.menu-card .menu-desc {
+    font-size: 0.9rem;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.menu-card p strong {
+    color: #000;
+}
+
+.menu-card form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.menu-card input[type="number"] {
+    width: 60px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.menu-card button {
+    background-color: #c00;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.menu-card button:hover {
+    background-color: #ff4500;
+}
+
+/* ---------- Cart Section ---------- */
+.cart-section {
+    padding: 50px 0;
+}
+
+.cart-section h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+    color: #c00;
+    text-align: center;
+}
+
+.cart-table-wrapper {
+    overflow-x: auto;
+}
+
+.cart-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.cart-table th, .cart-table td {
+    padding: 12px 15px;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+}
+
+.cart-table th {
+    background-color: #f8d7da;
+    color: #c00;
+}
+
+.cart-table tr:hover {
+    background-color: #ffe5e0;
+}
+
+.cart-total {
+    text-align: right;
+    margin-top: 20px;
+}
+
+.cart-total h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.cart-total button {
+    background-color: #c00;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: 600;
+    cursor: pointer;
+    border: none;
+    transition: 0.3s;
+}
+
+.cart-total button:hover {
+    background-color: #ff4500;
+}
+
+/* ---------- Footer ---------- */
+footer {
+    background-color: #c00;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* ---------- Responsive ---------- */
+@media(max-width: 768px){
+    header nav {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .menu-card img {
+        height: 140px;
+    }
+}
+
+
+/* Label for Popular/New */
+.label-popular {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #ff9800;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 6px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+/* ===== Login / Register Cards ===== */
+.login-card, .register-card {
+    max-width: 400px;
+    background: #fff;
+    margin: 80px auto;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+    text-align: center;
+}
+.login-card h2, .register-card h2 {
+    margin-bottom: 25px;
+    color: #c81d25;
+}
+.login-card input, .register-card input {
+    width: 100%;
+    padding: 12px 15px;
+    margin-bottom: 20px;
+    border-radius: 50px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+.login-card button, .register-card button {
+    width: 100%;
+    padding: 12px 0;
+    border-radius: 50px;
+    border: none;
+    background: #ffdd59;
+    color: #c81d25;
+    font-weight: 600;
+    transition: 0.3s;
+}
+.login-card button:hover, .register-card button:hover {
+    background: #fff;
+    color: #c81d25;
+    transform: scale(1.05);
+}
+
+/* ===== Cart Table ===== */
+.cart-section {
+    padding: 50px;
+}
+.cart-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+}
+.cart-table th, .cart-table td {
+    padding: 12px 15px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+.cart-total {
+    text-align: right;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+/* ===== Footer ===== */
+footer {
+    background: #c81d25;
+    color: #fff;
+    text-align: center;
+    padding: 25px 0;
+    font-size: 0.9rem;
+}
+
+/* ===== Responsive ===== */
+@media(max-width:768px){
+    .hero {
+        flex-direction: column;
+        text-align: center;
+        padding: 30px;
+        height: auto;
+    }
+    .hero h2 {
+        font-size: 2rem;
+    }
+    .features-grid, .menu-grid {
+        grid-template-columns: 1fr;
+    }
+}
+.error-msg {
+    color: red;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.success-msg {
+    color: green;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+/* Modern Footer CSS */
+footer {
+  background-color: #1c1c1c;
+  color: #fff;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 40px 20px;
+  max-width: 1200px;
+  margin: auto;
+  align-items: center;
+  gap: 20px;
+}
+
+.footer-brand h2 {
+  color: #d71a1a;
+  font-size: 28px;
+  margin-bottom: 5px;
+}
+
+.footer-brand p {
+  font-size: 14px;
+  color: #ccc;
+}
+
+.footer-links {
+  display: flex;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+.footer-links a {
+  color: #fff;
+  text-decoration: none;
+  transition: 0.3s;
+  font-weight: 500;
+}
+
+.footer-links a:hover {
+  color: #d71a1a;
+}
+
+.footer-social a {
+  color: #fff;
+  margin-right: 15px;
+  font-size: 20px;
+  transition: 0.3s;
+}
+
+.footer-social a:hover {
+  color: #d71a1a;
+}
+
+.footer-bottom {
+  text-align: center;
+  padding: 15px 0;
+  background-color: #111;
+  font-size: 13px;
+  color: #888;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .footer-container {
+    flex-direction: column;
+    text-align: center;
+    gap: 15px;
+  }
+
+  .footer-links {
+    justify-content: center;
+  }
+
+  .footer-social {
+    justify-content: center;
+  }
+}
+
+
