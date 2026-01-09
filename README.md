@@ -1,32 +1,21 @@
 # PizzaHut Website
 
-PizzaHut Website is a responsive restaurant website designed to showcase PizzaHut menu, special offers, and provide a user-friendly browsing experience.  
-This project is built using **HTML**, **CSS**, and **JavaScript**.
-
----
+Responsive Pizza Hut website showcasing menu, offers, and ordering pages.
 
 ## 🌐 Live Demo
-[View Live Demo](https://mifra-git.github.io/Pizzahut-website/)  
+[View Live Demo](https://yourusername.github.io/pizzahut-website/)
 
-> Replace `yourusername` with your GitHub username after deploying to GitHub Pages.  
+## 🛠 Technologies
+- HTML5
+- CSS3
+- JavaScript (Basic)
+- Responsive Design
 
----
+## Features
+- Multi-page layout (Home, Menu, Contact)
+- Interactive UI with buttons and hover effects
+- Clean, modern design
 
-## 💻 Features
-- Responsive layout for desktop, tablet, and mobile
-- Multi-page design (Home, Menu, Contact)
-- Interactive buttons and hover effects
-- Clean and modern design
-- Easy navigation between pages
-
----
-
-## 🛠 Technologies Used
-- **HTML5** – Structure of the website
-- **CSS3** – Styling and responsive design
-- **JavaScript** – Interactive elements (optional)
-- **Google Fonts / Icons** – Typography and icons
-
----
-
-## 📁 Project Structure
+## Contact
+- Email: yourname@email.com
+- GitHub: [github.com/yourusername](https://github.com/yourusername)
