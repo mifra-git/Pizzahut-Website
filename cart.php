@@ -61,23 +61,23 @@ if(!empty($_SESSION['cart'])){
 
         // Map item names to exact image filenames
         $image_map = [
-            "Margherita Pizza"=>"js/images/margherita.jpg",
-            "Pepperoni Pizza"=>"js/images/pepperoni.jpg",
-            "Veggie Delight"=>"js/images/veggie_delight.jpg",
-            "BBQ Chicken Pizza"=>"js/images/bbq_chicken.jpg",
-            "Hawaiian Pizza"=>"js/images/hawaiian.jpg",
-            "Cheese Lovers"=>"js/images/cheese_lovers.jpg",
-            "Meat Lovers"=>"js/images/Meat Lovers.jpg",
-            "Supreme Pizza"=>"js/images/Supreme Pizza.jpg",
-            "Spaghetti Bolognese"=>"js/images/Spaghetti Bolognese.jpg",
-            "Creamy Alfredo Pasta"=>"js/images/Creamy Alfredo Pasta.jpg",
-            "Penne Arrabiata"=>"js/images/Penne Arrabiata.jpg",
-            "Garlic Bread"=>"js/images/Garlic Bread.jpg",
-            "Chicken Wings"=>"js/images/Chicken Wings.jpg",
-            "Coca Cola"=>"js/images/Coca Cola.jpg",
-            "Orange Juice"=>"js/images/Orange Juice.jpg",
-            "Chocolate Lava Cake"=>"js/images/Chocolate Lava Cake.jpg",
-            "Ice Cream Sundae"=>"js/images/Ice Cream Sundae.jpg"
+            "Margherita Pizza"=>"images/margherita.jpg",
+            "Pepperoni Pizza"=>"images/pepperoni.jpg",
+            "Veggie Delight"=>"images/veggie_delight.jpg",
+            "BBQ Chicken Pizza"=>"images/bbq_chicken.jpg",
+            "Hawaiian Pizza"=>"images/hawaiian.jpg",
+            "Cheese Lovers"=>"images/cheese_lovers.jpg",
+            "Meat Lovers"=>"images/Meat Lovers.jpg",
+            "Supreme Pizza"=>"images/Supreme Pizza.jpg",
+            "Spaghetti Bolognese"=>"images/Spaghetti Bolognese.jpg",
+            "Creamy Alfredo Pasta"=>"images/Creamy Alfredo Pasta.jpg",
+            "Penne Arrabiata"=>"images/Penne Arrabiata.jpg",
+            "Garlic Bread"=>"images/Garlic Bread.jpg",
+            "Chicken Wings"=>"images/Chicken Wings.jpg",
+            "Coca Cola"=>"images/Coca Cola.jpg",
+            "Orange Juice"=>"images/Orange Juice.jpg",
+            "Chocolate Lava Cake"=>"images/Chocolate Lava Cake.jpg",
+            "Ice Cream Sundae"=>"images/Ice Cream Sundae.jpg"
         ];
 
         $img_src = isset($image_map[$item['item']]) ? $image_map[$item['item']] : 'js/images/default.jpg';
@@ -118,3 +118,4 @@ if(!empty($_SESSION['cart'])){
 </footer>
 </body>
 </html>
+
